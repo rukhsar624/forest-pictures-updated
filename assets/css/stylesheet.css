@@ -286,7 +286,7 @@ body::-webkit-scrollbar-thumb {
     color: #FF9E01;
 }
 .active, .header_links:active{
-    border-bottom: 1px solid #FF9E01;
+    /* border-bottom: 1px solid #FF9E01; */
     color: #FF9E01;
 }
 a:active{
@@ -448,7 +448,9 @@ a:active{
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
-
+.cover i{
+    cursor: pointer;
+}
 .item1:hover .cover {
     opacity: .8;
     display: block;
@@ -2620,6 +2622,9 @@ a:active{
         width: 85px;
         height: 100px;
     }
+    .skull .uk-position-relative .uk-slider-container .uk-slider-items .btns a button {
+        padding: 10px 15px 10px 15px;
+    }
 }
 
 @media only screen and (max-width:390px) {}
@@ -2635,6 +2640,12 @@ a:active{
     .img-div-img {
         width: 70px;
         height: 100px;
+    }
+    .skull .uk-position-relative .uk-slider-container .uk-slider-items .btns a button {
+        padding: 10px 15px 10px 15px;
+    }
+    .home-banner .banner a button, .our-section .movie .cover a button {
+        padding: 10px 25px 10px 25px;
     }
 }
 
