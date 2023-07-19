@@ -448,7 +448,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     transition: opacity 0.15s ease-in;
     opacity: 0;
-    padding-top: 140px;
+    padding-top: 75px;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
@@ -2054,6 +2054,20 @@ body::-webkit-scrollbar-thumb {
         height: 600px;
         position: relative;
         border-radius: 50px;
+    }
+    .movie::before {
+        top: 0px;
+        top: -6px;
+        right: -6px;
+        bottom: -25px;
+        left: -5px;
+      }
+    .item1 .cover {
+        position: absolute;
+        top: 11px;
+        left: 10px;
+        width: 95%;
+        height: 100%;
     }
 }
 
