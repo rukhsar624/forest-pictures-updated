@@ -733,6 +733,8 @@ body::-webkit-scrollbar-thumb {
     padding: 10px 18px;
     min-height: 120px;
     max-height: 120px;
+    border: 2px solid #000;
+    font-family: 'NoirStd-Light';
 }
 
 .form input::placeholder {
