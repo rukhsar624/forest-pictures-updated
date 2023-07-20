@@ -134,11 +134,15 @@ var swiper = new Swiper(".mySwiper", {
 		},
 		1400: {
 			slidesPerView: 4,
-			spaceBetween: 20
+			spaceBetween: 10
+		},
+		1440: {
+			slidesPerView: 4,
+			spaceBetween: 5
 		},
 		1366: {
 			slidesPerView: 4,
-			spaceBetween: 10
+			spaceBetween: 5
 		},
 		2560: {
 			slidesPerView: 4,
